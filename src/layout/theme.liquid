@@ -1,0 +1,15 @@
+<!doctype html>
+<html class="no-js supports-no-cookies" lang="{{ shop.locale }}">
+<head>
+  {% include 'style-tags', layout: 'theme' %}
+  {% include 'css-variables' %}
+  {% include 'script-tags', layout: 'theme' %}
+  {{ content_for_header }}
+</head>
+
+<body>
+  <main role="main" id="MainContent">
+    {{ content_for_layout }}
+  </main>
+</body>
+</html>

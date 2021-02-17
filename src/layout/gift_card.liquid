@@ -1,0 +1,15 @@
+<!doctype html>
+<html class="no-js" lang="{{ shop.locale }}">
+<head>
+  {% include 'style-tags', layout: 'gift_card' %}
+  {% include 'css-variables' %}
+  {% include 'script-tags', layout: 'gift_card' %}
+  {{ content_for_header }}
+</head>
+
+<body>
+  <main role="main" id="MainContent">
+    {{ content_for_layout }}
+  </main>
+</body>
+</html>
